@@ -1,9 +1,9 @@
-const config = require('./config');
+const config = require('./src/config');
 const express = require('express');
 
 
 const app = express();
-require('./loaders')(app)
+require('./src/loaders')(app)
 
 if(config.node_env !== 'test'){
 

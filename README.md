@@ -1,0 +1,1 @@
+docker run --name fullstack2 -v /${PWD}/docker-volume/fullstack-starter/frontend/src/:/app/frontend/src -v /${PWD}/docker-volume/fullstack-starter/backend/src/:/app/backend/src -v /${PWD}/docker-volume/fullstack-starter/supervisord.conf:/etc/supervisord.conf -p 5002:5000 -p 3002:3000 -d fullstack-starter
