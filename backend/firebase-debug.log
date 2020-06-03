@@ -1,0 +1,526 @@
+[debug] [2020-06-03T04:52:31.145Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T04:52:31.148Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-06-03T04:52:31.148Z] CLI Version:   8.2.0
+[debug] [2020-06-03T04:52:31.148Z] Platform:      win32
+[debug] [2020-06-03T04:52:31.149Z] Node Version:  v12.16.1
+[debug] [2020-06-03T04:52:31.151Z] Time:          Wed Jun 03 2020 11:52:31 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T04:52:31.152Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T04:52:31.152Z] 
+[debug] [2020-06-03T04:52:31.167Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T04:52:31.168Z] > authorizing via signed-in user
+[debug] [2020-06-03T04:52:31.169Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T04:52:31.177Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T04:52:55.768Z] [iam] error while checking permissions, command may fail: FirebaseError: Server Error. read ECONNRESET
+[debug] [2020-06-03T04:52:55.770Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T04:52:56.574Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 04:52:56 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\ASUS\docker-volume\fullstack-starter\backend'...
+[info] 
+[warn] !  Your requested "node" version "10" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T04:52:58.682Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T04:52:58.683Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T04:52:58.684Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T04:52:58.685Z] [worker-~diagnostic~-b34fff92-8aa4-4837-9a45-b578f2d5fd5a]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\9288 
+[debug] [2020-06-03T04:52:58.686Z] [worker-~diagnostic~-b34fff92-8aa4-4837-9a45-b578f2d5fd5a]: BUSY 
+[debug] [2020-06-03T04:52:59.720Z] [runtime-status] [9288] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T04:52:59.725Z] [runtime-status] [9288] Disabled runtime features: undefined 
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed as a dependency. To fix this, run "npm install --save firebase-admin" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-06-03T04:52:59.759Z] [worker-~diagnostic~-b34fff92-8aa4-4837-9a45-b578f2d5fd5a]: exited 
+[debug] [2020-06-03T04:52:59.760Z] [worker-~diagnostic~-b34fff92-8aa4-4837-9a45-b578f2d5fd5a]: FINISHED 
+[debug] [2020-06-03T04:55:06.551Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T04:55:06.555Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2020-06-03T04:55:06.555Z] CLI Version:   8.2.0
+[debug] [2020-06-03T04:55:06.555Z] Platform:      win32
+[debug] [2020-06-03T04:55:06.556Z] Node Version:  v12.16.1
+[debug] [2020-06-03T04:55:06.558Z] Time:          Wed Jun 03 2020 11:55:06 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T04:55:06.558Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T04:55:06.559Z] 
+[debug] [2020-06-03T04:55:06.574Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T04:55:06.575Z] > authorizing via signed-in user
+[debug] [2020-06-03T04:55:06.575Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T04:55:06.581Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T04:55:07.870Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 04:55:07 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1022","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T04:55:07.876Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T04:55:08.409Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 04:55:07 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T04:55:10.499Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T04:55:10.499Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T04:55:10.500Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T04:55:10.501Z] [worker-~diagnostic~-e6d87ec8-c51c-4284-a39e-d4bef1c9786b]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\5028 
+[debug] [2020-06-03T04:55:10.502Z] [worker-~diagnostic~-e6d87ec8-c51c-4284-a39e-d4bef1c9786b]: BUSY 
+[debug] [2020-06-03T04:55:11.591Z] [runtime-status] [5028] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T04:55:11.599Z] [runtime-status] [5028] Disabled runtime features: undefined 
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed as a dependency. To fix this, run "npm install --save firebase-admin" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-06-03T04:55:11.631Z] [worker-~diagnostic~-e6d87ec8-c51c-4284-a39e-d4bef1c9786b]: exited 
+[debug] [2020-06-03T04:55:11.631Z] [worker-~diagnostic~-e6d87ec8-c51c-4284-a39e-d4bef1c9786b]: FINISHED 
+[debug] [2020-06-03T04:58:57.788Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T04:58:57.796Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2020-06-03T04:58:57.797Z] CLI Version:   8.2.0
+[debug] [2020-06-03T04:58:57.797Z] Platform:      win32
+[debug] [2020-06-03T04:58:57.798Z] Node Version:  v12.16.1
+[debug] [2020-06-03T04:58:57.815Z] Time:          Wed Jun 03 2020 11:58:57 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T04:58:57.817Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T04:58:57.818Z] 
+[debug] [2020-06-03T04:58:58.009Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T04:58:58.012Z] > authorizing via signed-in user
+[debug] [2020-06-03T04:58:58.017Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T04:58:58.039Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T04:58:59.908Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 04:58:59 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1195","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T04:58:59.911Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T04:59:00.277Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 04:58:59 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T04:59:02.576Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T04:59:02.576Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T04:59:02.577Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T04:59:02.578Z] [worker-~diagnostic~-23a68f06-c3fc-442a-aea6-cc09a9c126c0]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\14196 
+[debug] [2020-06-03T04:59:02.579Z] [worker-~diagnostic~-23a68f06-c3fc-442a-aea6-cc09a9c126c0]: BUSY 
+[debug] [2020-06-03T04:59:04.193Z] [runtime-status] [14196] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T04:59:04.197Z] [runtime-status] [14196] Disabled runtime features: undefined 
+[debug] [2020-06-03T04:59:04.229Z] [runtime-status] [14196] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[warn] !  The Cloud Functions emulator requires the module "firebase-functions" to be installed as a dependency. To fix this, run "npm install --save firebase-functions" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-06-03T04:59:04.264Z] [worker-~diagnostic~-23a68f06-c3fc-442a-aea6-cc09a9c126c0]: exited 
+[debug] [2020-06-03T04:59:04.265Z] [worker-~diagnostic~-23a68f06-c3fc-442a-aea6-cc09a9c126c0]: FINISHED 
+[debug] [2020-06-03T05:04:16.895Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:04:16.902Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2020-06-03T05:04:16.903Z] CLI Version:   8.2.0
+[debug] [2020-06-03T05:04:16.903Z] Platform:      win32
+[debug] [2020-06-03T05:04:16.904Z] Node Version:  v12.16.1
+[debug] [2020-06-03T05:04:16.921Z] Time:          Wed Jun 03 2020 12:04:16 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T05:04:16.921Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:04:16.921Z] 
+[debug] [2020-06-03T05:04:17.011Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T05:04:17.013Z] > authorizing via signed-in user
+[debug] [2020-06-03T05:04:17.014Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T05:04:17.024Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T05:04:18.452Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:04:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1069","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T05:04:18.456Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T05:04:19.033Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:04:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your requested "node" version "10" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T05:04:21.152Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T05:04:21.153Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T05:04:21.153Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T05:04:21.155Z] [worker-~diagnostic~-5fdb1bd7-e342-4403-bf73-54bb55376b85]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\14776 
+[debug] [2020-06-03T05:04:21.155Z] [worker-~diagnostic~-5fdb1bd7-e342-4403-bf73-54bb55376b85]: BUSY 
+[debug] [2020-06-03T05:04:22.416Z] [runtime-status] [14776] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T05:04:22.418Z] [runtime-status] [14776] Disabled runtime features: undefined 
+[debug] [2020-06-03T05:04:22.428Z] [runtime-status] [14776] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T05:04:22.450Z] [runtime-status] [14776] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T05:04:22.454Z] [runtime-status] [14776] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T05:04:23.178Z] [runtime-status] [14776] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T05:04:23.179Z] [runtime-status] [14776] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\14776"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T05:04:23.199Z] [worker-~diagnostic~-5fdb1bd7-e342-4403-bf73-54bb55376b85]: exited 
+[debug] [2020-06-03T05:04:23.199Z] [worker-~diagnostic~-5fdb1bd7-e342-4403-bf73-54bb55376b85]: FINISHED 
+[debug] [2020-06-03T05:05:46.147Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:05:46.151Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-06-03T05:05:46.151Z] CLI Version:   8.2.0
+[debug] [2020-06-03T05:05:46.151Z] Platform:      win32
+[debug] [2020-06-03T05:05:46.151Z] Node Version:  v12.16.1
+[debug] [2020-06-03T05:05:46.154Z] Time:          Wed Jun 03 2020 12:05:46 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T05:05:46.155Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:05:46.155Z] 
+[debug] [2020-06-03T05:05:46.171Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T05:05:46.173Z] > authorizing via signed-in user
+[debug] [2020-06-03T05:05:46.173Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T05:05:46.179Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T05:05:47.594Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:05:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1038","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T05:05:47.598Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T05:05:47.995Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:05:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\ASUS\docker-volume\fullstack-starter\backend'...
+[info] 
+[warn] !  Your requested "node" version "10" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T05:05:50.096Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T05:05:50.096Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T05:05:50.097Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T05:05:50.098Z] [worker-~diagnostic~-d840d8f2-bd79-47d2-ac14-32298b2d1a9c]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\15108 
+[debug] [2020-06-03T05:05:50.099Z] [worker-~diagnostic~-d840d8f2-bd79-47d2-ac14-32298b2d1a9c]: BUSY 
+[debug] [2020-06-03T05:05:51.097Z] [runtime-status] [15108] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T05:05:51.104Z] [runtime-status] [15108] Disabled runtime features: undefined 
+[debug] [2020-06-03T05:05:51.122Z] [runtime-status] [15108] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T05:05:51.128Z] [runtime-status] [15108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T05:05:51.132Z] [runtime-status] [15108] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T05:05:51.353Z] [runtime-status] [15108] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T05:05:51.354Z] [runtime-status] [15108] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\15108"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T05:05:51.376Z] [worker-~diagnostic~-d840d8f2-bd79-47d2-ac14-32298b2d1a9c]: exited 
+[debug] [2020-06-03T05:05:51.376Z] [worker-~diagnostic~-d840d8f2-bd79-47d2-ac14-32298b2d1a9c]: FINISHED 
+[debug] [2020-06-03T05:15:25.559Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:15:25.568Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-06-03T05:15:25.569Z] CLI Version:   8.2.0
+[debug] [2020-06-03T05:15:25.570Z] Platform:      win32
+[debug] [2020-06-03T05:15:25.570Z] Node Version:  v12.16.1
+[debug] [2020-06-03T05:15:25.573Z] Time:          Wed Jun 03 2020 12:15:25 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T05:15:25.574Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:15:25.575Z] 
+[debug] [2020-06-03T05:15:25.604Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T05:15:25.607Z] > authorizing via signed-in user
+[debug] [2020-06-03T05:15:25.608Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T05:15:25.621Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T05:15:36.736Z] [iam] error while checking permissions, command may fail: FirebaseError: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2020-06-03T05:15:36.737Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T05:15:37.381Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:15:36 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\ASUS\docker-volume\fullstack-starter\backend'...
+[info] 
+[warn] !  Your requested "node" version "10" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T05:15:39.507Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T05:15:39.508Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T05:15:39.508Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T05:15:39.510Z] [worker-~diagnostic~-3cceb597-3074-4b71-8e86-9c95c621c606]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\14744 
+[debug] [2020-06-03T05:15:39.510Z] [worker-~diagnostic~-3cceb597-3074-4b71-8e86-9c95c621c606]: BUSY 
+[debug] [2020-06-03T05:15:40.448Z] [runtime-status] [14744] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T05:15:40.457Z] [runtime-status] [14744] Disabled runtime features: undefined 
+[debug] [2020-06-03T05:15:40.477Z] [runtime-status] [14744] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T05:15:40.488Z] [runtime-status] [14744] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T05:15:40.496Z] [runtime-status] [14744] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T05:15:40.661Z] [runtime-status] [14744] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T05:15:40.662Z] [runtime-status] [14744] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\14744"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T05:15:40.685Z] [worker-~diagnostic~-3cceb597-3074-4b71-8e86-9c95c621c606]: exited 
+[debug] [2020-06-03T05:15:40.686Z] [worker-~diagnostic~-3cceb597-3074-4b71-8e86-9c95c621c606]: FINISHED 
+[debug] [2020-06-03T05:26:29.144Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:26:29.148Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-06-03T05:26:29.149Z] CLI Version:   8.2.0
+[debug] [2020-06-03T05:26:29.149Z] Platform:      win32
+[debug] [2020-06-03T05:26:29.149Z] Node Version:  v12.16.1
+[debug] [2020-06-03T05:26:29.164Z] Time:          Wed Jun 03 2020 12:26:29 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T05:26:29.164Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:26:29.165Z] 
+[debug] [2020-06-03T05:26:29.201Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T05:26:29.203Z] > authorizing via signed-in user
+[debug] [2020-06-03T05:26:29.204Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T05:26:29.218Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-03T05:26:29.220Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-03T05:26:29.646Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:26:29 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T05:26:29.681Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T05:26:31.027Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:26:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1066","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T05:26:31.030Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T05:26:31.743Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:26:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\ASUS\docker-volume\fullstack-starter\backend'...
+[info] 
+[warn] !  Your requested "node" version "10" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T05:26:33.878Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T05:26:33.878Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T05:26:33.879Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T05:26:33.880Z] [worker-~diagnostic~-43ca3620-aad7-43c6-a03a-47e7da495836]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\15584 
+[debug] [2020-06-03T05:26:33.880Z] [worker-~diagnostic~-43ca3620-aad7-43c6-a03a-47e7da495836]: BUSY 
+[debug] [2020-06-03T05:26:35.374Z] [runtime-status] [15584] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T05:26:35.376Z] [runtime-status] [15584] Disabled runtime features: undefined 
+[debug] [2020-06-03T05:26:35.397Z] [runtime-status] [15584] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T05:26:35.417Z] [runtime-status] [15584] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T05:26:35.422Z] [runtime-status] [15584] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T05:26:35.590Z] [runtime-status] [15584] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T05:26:35.593Z] [runtime-status] [15584] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\15584"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T05:26:35.632Z] [worker-~diagnostic~-43ca3620-aad7-43c6-a03a-47e7da495836]: exited 
+[debug] [2020-06-03T05:26:35.632Z] [worker-~diagnostic~-43ca3620-aad7-43c6-a03a-47e7da495836]: FINISHED 
+[debug] [2020-06-03T05:41:17.796Z] File C:\Users\ASUS\docker-volume\fullstack-starter\backend\index.js changed, reloading triggers 
+[debug] [2020-06-03T05:41:17.901Z] File C:\Users\ASUS\docker-volume\fullstack-starter\backend\index.js changed, reloading triggers 
+[debug] [2020-06-03T05:41:18.917Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0 
+[debug] [2020-06-03T05:41:19.018Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T05:41:19.018Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T05:41:19.018Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T05:41:19.052Z] [worker-~diagnostic~-9eb3bab1-cc2e-4525-8f04-0d3e9565d6dd]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\248 
+[debug] [2020-06-03T05:41:19.054Z] [worker-~diagnostic~-9eb3bab1-cc2e-4525-8f04-0d3e9565d6dd]: BUSY 
+[debug] [2020-06-03T05:41:27.630Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:41:27.637Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-06-03T05:41:27.638Z] CLI Version:   8.2.0
+[debug] [2020-06-03T05:41:27.638Z] Platform:      win32
+[debug] [2020-06-03T05:41:27.639Z] Node Version:  v12.16.1
+[debug] [2020-06-03T05:41:27.653Z] Time:          Wed Jun 03 2020 12:41:27 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T05:41:27.654Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:41:27.654Z] 
+[debug] [2020-06-03T05:41:27.681Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T05:41:27.682Z] > authorizing via signed-in user
+[debug] [2020-06-03T05:41:27.683Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T05:41:27.692Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T05:41:38.846Z] [iam] error while checking permissions, command may fail: FirebaseError: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2020-06-03T05:41:38.848Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T05:41:39.634Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:41:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\ASUS\docker-volume\fullstack-starter\backend'...
+[info] 
+[warn] !  Your requested "node" version "10" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T05:41:41.763Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T05:41:41.764Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T05:41:41.765Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T05:41:41.766Z] [worker-~diagnostic~-bd537dfe-da69-46cd-b180-9792eec3ae30]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\15580 
+[debug] [2020-06-03T05:41:41.767Z] [worker-~diagnostic~-bd537dfe-da69-46cd-b180-9792eec3ae30]: BUSY 
+[debug] [2020-06-03T05:41:42.675Z] [runtime-status] [15580] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T05:41:42.681Z] [runtime-status] [15580] Disabled runtime features: undefined 
+[debug] [2020-06-03T05:41:42.690Z] [runtime-status] [15580] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T05:41:42.717Z] [runtime-status] [15580] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T05:41:42.721Z] [runtime-status] [15580] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T05:41:42.839Z] [runtime-status] [15580] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T05:41:42.840Z] [runtime-status] [15580] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\15580"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T05:41:42.864Z] [worker-~diagnostic~-bd537dfe-da69-46cd-b180-9792eec3ae30]: exited 
+[debug] [2020-06-03T05:41:42.865Z] [worker-~diagnostic~-bd537dfe-da69-46cd-b180-9792eec3ae30]: FINISHED 
+[debug] [2020-06-03T05:52:50.206Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:52:50.213Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve --debug
+[debug] [2020-06-03T05:52:50.213Z] CLI Version:   8.2.0
+[debug] [2020-06-03T05:52:50.213Z] Platform:      win32
+[debug] [2020-06-03T05:52:50.214Z] Node Version:  v12.16.1
+[debug] [2020-06-03T05:52:50.227Z] Time:          Wed Jun 03 2020 12:52:50 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T05:52:50.228Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:52:50.228Z] 
+[debug] [2020-06-03T05:52:50.255Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T05:52:50.266Z] > authorizing via signed-in user
+[debug] [2020-06-03T05:52:50.271Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T05:52:50.287Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T05:52:51.779Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:52:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1053","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T05:52:51.791Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T05:52:52.285Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:52:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\ASUS\docker-volume\fullstack-starter\backend'...
+[info] 
+[warn] !  Your requested "node" version "10" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T05:52:54.400Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T05:52:54.406Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T05:52:54.408Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T05:52:54.412Z] [worker-~diagnostic~-6502db88-4bd3-422c-934b-68613e4a4f80]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\13532 
+[debug] [2020-06-03T05:52:54.420Z] [worker-~diagnostic~-6502db88-4bd3-422c-934b-68613e4a4f80]: BUSY 
+[debug] [2020-06-03T05:52:55.574Z] [runtime-status] [13532] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T05:52:55.582Z] [runtime-status] [13532] Disabled runtime features: undefined 
+[debug] [2020-06-03T05:52:55.592Z] [runtime-status] [13532] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T05:52:55.608Z] [runtime-status] [13532] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T05:52:55.615Z] [runtime-status] [13532] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T05:52:55.726Z] [runtime-status] [13532] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T05:52:55.730Z] [runtime-status] [13532] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\13532"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T05:52:55.758Z] [worker-~diagnostic~-6502db88-4bd3-422c-934b-68613e4a4f80]: exited 
+[debug] [2020-06-03T05:52:55.761Z] [worker-~diagnostic~-6502db88-4bd3-422c-934b-68613e4a4f80]: FINISHED 
+[debug] [2020-06-03T05:53:30.714Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:53:30.718Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve --debug
+[debug] [2020-06-03T05:53:30.718Z] CLI Version:   8.2.0
+[debug] [2020-06-03T05:53:30.718Z] Platform:      win32
+[debug] [2020-06-03T05:53:30.719Z] Node Version:  v12.16.1
+[debug] [2020-06-03T05:53:30.721Z] Time:          Wed Jun 03 2020 12:53:30 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T05:53:30.722Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T05:53:30.722Z] 
+[debug] [2020-06-03T05:53:30.743Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T05:53:30.752Z] > authorizing via signed-in user
+[debug] [2020-06-03T05:53:30.754Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T05:53:30.770Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T05:53:32.122Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:53:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1029","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T05:53:32.137Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T05:53:32.559Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 05:53:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\ASUS\docker-volume\fullstack-starter\backend'...
+[info] 
+[info] +  functions: Using node@12 from host.
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T05:53:34.678Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T05:53:34.685Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T05:53:34.690Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T05:53:34.701Z] [worker-~diagnostic~-30cbfbfe-6e93-4dc3-ad4d-ff0e7b75d1a2]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\15760 
+[debug] [2020-06-03T05:53:34.705Z] [worker-~diagnostic~-30cbfbfe-6e93-4dc3-ad4d-ff0e7b75d1a2]: BUSY 
+[debug] [2020-06-03T05:53:36.194Z] [runtime-status] [15760] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T05:53:36.213Z] [runtime-status] [15760] Disabled runtime features: undefined 
+[debug] [2020-06-03T05:53:36.236Z] [runtime-status] [15760] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T05:53:36.246Z] [runtime-status] [15760] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T05:53:36.256Z] [runtime-status] [15760] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T05:53:36.352Z] [runtime-status] [15760] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T05:53:36.358Z] [runtime-status] [15760] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\15760"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T05:53:36.386Z] [worker-~diagnostic~-30cbfbfe-6e93-4dc3-ad4d-ff0e7b75d1a2]: exited 
+[debug] [2020-06-03T05:53:36.389Z] [worker-~diagnostic~-30cbfbfe-6e93-4dc3-ad4d-ff0e7b75d1a2]: FINISHED 
+[debug] [2020-06-03T06:13:08.172Z] File C:\Users\ASUS\docker-volume\fullstack-starter\backend\index.js changed, reloading triggers 
+[debug] [2020-06-03T06:13:08.215Z] File C:\Users\ASUS\docker-volume\fullstack-starter\backend\index.js changed, reloading triggers 
+[debug] [2020-06-03T06:13:09.224Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0 
+[debug] [2020-06-03T06:13:09.325Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T06:13:09.329Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T06:13:09.333Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T06:13:09.337Z] [worker-~diagnostic~-ca6586f2-f2be-4797-b648-f47d0bfe1726]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\17824 
+[debug] [2020-06-03T06:13:09.344Z] [worker-~diagnostic~-ca6586f2-f2be-4797-b648-f47d0bfe1726]: BUSY 
+[debug] [2020-06-03T06:13:10.773Z] [runtime-status] [17824] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T06:13:10.789Z] [runtime-status] [17824] Disabled runtime features: undefined 
+[debug] [2020-06-03T06:13:10.818Z] [runtime-status] [17824] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T06:13:10.830Z] [runtime-status] [17824] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T06:13:10.839Z] [runtime-status] [17824] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T06:13:10.984Z] [runtime-status] [17824] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T06:13:10.990Z] [runtime-status] [17824] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\17824"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T06:13:11.030Z] [worker-~diagnostic~-ca6586f2-f2be-4797-b648-f47d0bfe1726]: exited 
+[debug] [2020-06-03T06:13:11.037Z] [worker-~diagnostic~-ca6586f2-f2be-4797-b648-f47d0bfe1726]: FINISHED 
+[debug] [2020-06-03T06:18:26.579Z] File C:\Users\ASUS\docker-volume\fullstack-starter\backend\index.js changed, reloading triggers 
+[debug] [2020-06-03T06:18:27.586Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0 
+[debug] [2020-06-03T06:18:27.610Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T06:18:27.620Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T06:18:27.622Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T06:18:27.625Z] [worker-~diagnostic~-826c92ac-3fb5-4d42-b18b-0416a36ac0b4]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\16888 
+[debug] [2020-06-03T06:18:27.635Z] [worker-~diagnostic~-826c92ac-3fb5-4d42-b18b-0416a36ac0b4]: BUSY 
+[debug] [2020-06-03T06:18:28.525Z] [runtime-status] [16888] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T06:18:28.540Z] [runtime-status] [16888] Disabled runtime features: undefined 
+[debug] [2020-06-03T06:18:28.556Z] [runtime-status] [16888] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T06:18:28.566Z] [runtime-status] [16888] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T06:18:28.572Z] [runtime-status] [16888] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T06:18:28.673Z] [runtime-status] [16888] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T06:18:28.681Z] [runtime-status] [16888] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\16888"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T06:18:28.706Z] [worker-~diagnostic~-826c92ac-3fb5-4d42-b18b-0416a36ac0b4]: exited 
+[debug] [2020-06-03T06:18:28.717Z] [worker-~diagnostic~-826c92ac-3fb5-4d42-b18b-0416a36ac0b4]: FINISHED 
+[debug] [2020-06-03T06:19:06.814Z] File C:\Users\ASUS\docker-volume\fullstack-starter\backend\index.js changed, reloading triggers 
+[debug] [2020-06-03T06:19:07.823Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0 
+[debug] [2020-06-03T06:19:07.855Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T06:19:07.862Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T06:19:07.875Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T06:19:07.887Z] [worker-~diagnostic~-a94f1927-9079-4a7f-a22c-d0249ab3ceaa]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\7732 
+[debug] [2020-06-03T06:19:07.896Z] [worker-~diagnostic~-a94f1927-9079-4a7f-a22c-d0249ab3ceaa]: BUSY 
+[debug] [2020-06-03T06:19:14.832Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T06:19:14.839Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve --debug
+[debug] [2020-06-03T06:19:14.840Z] CLI Version:   8.2.0
+[debug] [2020-06-03T06:19:14.840Z] Platform:      win32
+[debug] [2020-06-03T06:19:14.840Z] Node Version:  v12.16.1
+[debug] [2020-06-03T06:19:14.855Z] Time:          Wed Jun 03 2020 13:19:14 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T06:19:14.856Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T06:19:14.856Z] 
+[debug] [2020-06-03T06:19:14.877Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T06:19:14.889Z] > authorizing via signed-in user
+[debug] [2020-06-03T06:19:14.892Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T06:19:14.912Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-03T06:19:14.921Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-03T06:19:15.254Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 06:19:14 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T06:19:15.292Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T06:19:16.698Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 06:19:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1002","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T06:19:16.710Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T06:19:28.999Z] Error: getaddrinfo ENOTFOUND firebase.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2020-06-03T06:20:09.577Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T06:20:09.580Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-06-03T06:20:09.581Z] CLI Version:   8.2.0
+[debug] [2020-06-03T06:20:09.581Z] Platform:      win32
+[debug] [2020-06-03T06:20:09.581Z] Node Version:  v12.16.1
+[debug] [2020-06-03T06:20:09.584Z] Time:          Wed Jun 03 2020 13:20:09 GMT+0700 (Indochina Time)
+[debug] [2020-06-03T06:20:09.584Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T06:20:09.584Z] 
+[debug] [2020-06-03T06:20:09.603Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-03T06:20:09.604Z] > authorizing via signed-in user
+[debug] [2020-06-03T06:20:09.605Z] [iam] checking project strategic-reef-245508 for permissions ["firebase.projects.get"]
+[debug] [2020-06-03T06:20:09.610Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/strategic-reef-245508:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-03T06:20:10.986Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 06:20:10 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1031","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-03T06:20:10.990Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/strategic-reef-245508  
+ 
+[debug] [2020-06-03T06:20:11.583Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Jun 2020 06:20:11 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\ASUS\docker-volume\fullstack-starter\backend'...
+[info] 
+[info] +  functions: Using node@12 from host.
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ASUS\docker-volume\fullstack-starter\backend" for Cloud Functions...
+[debug] [2020-06-03T06:20:13.705Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-03T06:20:13.705Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-03T06:20:13.705Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-03T06:20:13.707Z] [worker-~diagnostic~-4ef31f04-4701-4ee8-91af-d2237a328e8b]: Assigning socketPath: \\?\pipe\C:\Users\ASUS\docker-volume\fullstack-starter\backend\15864 
+[debug] [2020-06-03T06:20:13.708Z] [worker-~diagnostic~-4ef31f04-4701-4ee8-91af-d2237a328e8b]: BUSY 
+[debug] [2020-06-03T06:20:14.674Z] [runtime-status] [15864] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","node_version":"12.16.1"} 
+[debug] [2020-06-03T06:20:14.684Z] [runtime-status] [15864] Disabled runtime features: undefined 
+[debug] [2020-06-03T06:20:14.700Z] [runtime-status] [15864] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-03T06:20:14.706Z] [runtime-status] [15864] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.2","resolution":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-03T06:20:14.711Z] [runtime-status] [15864] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-03T06:20:14.801Z] [runtime-status] [15864] Checked functions.config() {"config":{}} 
+[debug] [2020-06-03T06:20:14.802Z] [runtime-status] [15864] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend","projectId":"strategic-reef-245508","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\ASUS\\docker-volume\\fullstack-starter\\backend\\15864"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ASUS\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-03T06:20:14.832Z] [worker-~diagnostic~-4ef31f04-4701-4ee8-91af-d2237a328e8b]: exited 
+[debug] [2020-06-03T06:20:14.833Z] [worker-~diagnostic~-4ef31f04-4701-4ee8-91af-d2237a328e8b]: FINISHED 

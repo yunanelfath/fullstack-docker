@@ -1,4 +1,4 @@
-FROM node:8.11.3-alpine
+FROM node:8.13
 
 WORKDIR /app
 
@@ -13,6 +13,7 @@ RUN apk add --update \
 RUN npm cache clean --force --verbose && \
   npm rebuild --verbose && \
   npm install -g nodemon --verbose && \
+  npm install -g firebase-tools --verbose && \
   npm install -g npm --verbose
 
 COPY frontend/package.json ./frontend/package.json
@@ -23,8 +24,7 @@ ADD --chown=www-data:www-data  frontend/ ./frontend
 
 
 COPY backend/package.json ./backend/package.json
-#RUN cd backend && \
-  npm install -g nodemon --verbose
+
 COPY --chown=www-data:www-data backend/ ./backend
 
 COPY --chown=www-data:www-data config/supervisord.conf /etc/supervisord.conf
