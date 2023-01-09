@@ -24,7 +24,7 @@
     "dotenv": "^8.1.0",
     "env-cmd": "^10.1.0",
     "express": "^4.17.1",
-    "firebase-admin": "^8.12.1",
+    "firebase-admin": "^11.4.1",
     "firebase-functions": "^3.6.2",
     "flickr-sdk": "^3.9.0",
     "hash-equals": "0.0.3",
